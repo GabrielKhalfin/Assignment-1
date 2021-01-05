@@ -1,0 +1,29 @@
+.jumbotron{
+    height:85vh;
+    background:url(../img/food.jpg);
+    background-size: cover;
+}
+
+.resize{
+    width: 100%;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 16px 34px;
+    text-align: center;
+    text-decoration: red;
+    display: inline-block;
+    font-size: 25px;
+    margin: 8px 4px;
+    cursor: pointer;
+}
+  
+  .button1 {
+    background-color: #4CAF50;
+    
+}
+
+
+  
