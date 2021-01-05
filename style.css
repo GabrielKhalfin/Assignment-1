@@ -1,5 +1,9 @@
+body{
+    background-color: teal;
+}
+
+
 .jumbotron{
-    height:85vh;
     background:url(../img/food.jpg);
     background-size: cover;
 }
@@ -7,6 +11,7 @@
 .resize{
     width: 100%;
 }
+
 
 .button {
     border: none;
@@ -25,5 +30,33 @@
     
 }
 
+.card-body{
+    max-height: fit-content;
+}
 
-  
+.pics {
+    /* padding-left:465px; */
+    float: left;
+    padding-left: 50px;
+    padding-right: 200px;
+}
+
+
+
+h1 {
+    text-align: center;
+    padding-top: 50px;
+    color: black
+}
+
+h3 {
+    text-align: center;
+    padding-top: 10px;
+    color: black
+}
+
+h4, legend{
+    text-align: left;
+    padding-top: 20px;
+    color: black
+}
