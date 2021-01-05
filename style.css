@@ -1,3 +1,9 @@
+body{
+    background-color: teal;
+}
+
+
+
 .jumbotron{
     height:85vh;
     background:url(../img/food.jpg);
@@ -24,6 +30,15 @@
     background-color: #4CAF50;
     
 }
+p{
+    font-size: 20px;
+    font-family: 'Times New Roman';
+}
 
-
+.navbar{
+    position: fixed;
+    top: 0; 
+    left: 0; 
+     width: 100%;
+}
   
