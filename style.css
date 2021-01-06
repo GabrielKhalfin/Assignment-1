@@ -3,9 +3,7 @@ body{
 }
 
 
-
 .jumbotron{
-    height:85vh;
     background:url(../img/food.jpg);
     background-size: cover;
 }
@@ -13,6 +11,7 @@ body{
 .resize{
     width: 100%;
 }
+
 
 .button {
     border: none;
@@ -30,15 +29,35 @@ body{
     background-color: #4CAF50;
     
 }
-p{
-    font-size: 20px;
-    font-family: 'Times New Roman';
+
+.card-body{
+    max-height: fit-content;
 }
 
-.navbar{
-    position: fixed;
-    top: 0; 
-    left: 0; 
-     width: 100%;
+.pics {
+    /* padding-left:465px; */
+    float: left;
+    padding-left: 50px;
+    padding-right: 200px;
+}
+
+
+
+h1 {
+    text-align: center;
+    padding-top: 30px;
+    color: black
+}
+
+h3 {
+    text-align: center;
+    padding-top: 10px;
+    color: black
+}
+
+h4, legend, h2{
+    text-align: left;
+    padding-top: 20px;
+    color:khaki;
 }
   
