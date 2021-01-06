@@ -22,7 +22,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.html">Home</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="AboutUs.html">About Us</a>
@@ -31,7 +31,7 @@
               <a class="nav-link" href="Donate.html">Donate</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
+                <a class="nav-link" href="#">Contact</a>
               </li>
           </ul>
         </div>
@@ -42,58 +42,74 @@
     <h3>
         Want to Contact Us, please provide the information below
     </h3>
-    <fieldset>
-        <h4>Name: Gabriel Khalfin and Will Edwards </h4> 
-        <h4> Email: gabriel.khalfin@cix.csi.cuny.edu</h4> 
-        <h4> State: New York</h4> 
-     </fieldset>
-     <form method="GET">
-         <fieldset>
-             <legend>Your Contact Information</legend>
-             <h4>
-                 <label for="name"> Name: </label>
-                 <input placeholder="enter name" type="text" id="name" name="name" required="">                
-             </h4>
-             <h4>
-                 <label for="Email"> Email: </label>
-                 <input placeholder="Enter Email" type="Email" id="Email" name="Email" required>
-             <h4>
-             <h4>
-                 <label for="Address"> Address: </label>
-                 <input placeholder="enter street address" type="text" id="Address" name="Address" required="">
-             </h4>
-             <h4>
-                 <label for="State"> State: </label>
-                 <input placeholder="Input State" type="text" id="State" name="State" required>
-             <h4>
-                 <label for="City"> City: </label>
-                 <input placeholder="Input City" type="text" id="City" name="City">
-             </h4>
-             <h4>
-             <label for="Zip"> Zip Code: </label>
-             <input placeholder="Input Zip Code" type="number" id="Zip" name="Zip">
-             </h4>
-             <h4>
-                 How Would You like Me To Get in Touch?
-             </h4>
-             <h4>
-                 <input type="radio" name="Order Source" value="Call" id="Call" required><label for="Call">Call via Phone Number</label>
-             </h4>
-             <h4>
-                 <input type="radio" name="Order Source" value="email" id="email" required><label for="email">Email</label>
-             </h4>
-             <h4>
-                 <input type="radio" name="Order Source" value="Both" id="Both" required><label for="Both">Both</label>
-             </h4>
-             <textarea placeholder="Any Ideas to Make the Website better Feel Free to add your inputs here."
-                  name="Notes" id="Notes" style="margin: 0px; width: 400px; height: 71px;"></textarea>
- 
-         </fieldset>
-         <h4>
-             <input type="submit" value="Submit">
-             <input type="reset" value="Reset form">
-         </h4>
-     </form>
+     
+<div class="container">
+    <div class="card-deck my-5">
+      <div class="card">
+        <img class="card-img-top" src="img/our-contact.jpg" alt="Card image cap">
+        <div class="card-body bg-dark text-white">
+          <h2 class="card-title">Contact Info</h2>
+          <h4 class="card-text">
+            <fieldset class="text-dark">
+                <h4>Your Donation</h4>
+                <h4>
+                   Name: Gabriel Khalfin & Will Edwards.          
+                </h4>
+                <h4>
+                    Email: gabriel.khalfin@cix.csi.cuny.edu.
+                <h4>
+                <h4>
+                    PO Box: 113 fake address.
+                </h4>
+                <h4>
+                    State: New York.
+                <h4>
+                    City: Staten Island.
+                </h4>
+            </fieldset>
+        </h4>
+              <div class="d-flex justify-content-center">
+            </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img class="card-img-top resize donate-img" src="img/constructed.jpg"  alt="Card image cap">
+        <div class="card-body bg-dark text-white">
+          <h2 class="card-title">Contact Service</h2>
+          <h4 class="card-text">
+              <form method="GET">
+
+
+                <h4>
+                    How Would You like Me To Get in Touch?
+                </h4>
+                <h4>
+                    <input type="radio" name="Order Source" value="Call" id="Call" required><label for="Call">Call via Phone Number</label>
+                </h4>
+                <h4>
+                    <input type="radio" name="Order Source" value="email" id="email" required><label for="email">Email</label>
+                </h4>
+                <h4>
+                    <input type="radio" name="Order Source" value="Both" id="Both" required><label for="Both">Both</label>
+                </h4>
+                <textarea placeholder="Any Ideas to Make the Website better Feel Free to add your inputs here."
+                     name="Notes" id="Notes" style="margin: 0px; width: 400px; height: 71px;"></textarea>
+    
+            </fieldset>
+            <h4>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset form">
+            </h4>
+            
+            </form>
+            </h4>
+          <div class="d-flex justify-content-center">
+       </div>
+        </div>
+        </div>
+    </div>
+</div> 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

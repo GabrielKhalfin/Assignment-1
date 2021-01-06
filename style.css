@@ -55,8 +55,8 @@ h3 {
     color: black
 }
 
-h4, legend{
+h4, legend, h2{
     text-align: left;
     padding-top: 20px;
-    color: black
+    color: khaki;
 }
